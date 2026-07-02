@@ -4,7 +4,7 @@ import dotenv from "dotenv";
 import authRoutes from "./routes/authRoutes.js";
 import categoryRoutes from "./routes/categoryRoutes.js";
 import transactionRoutes from "./routes/transactionRoutes.js";
-
+import budgetRoutes from "./routes/budgetRoutes.js";
 dotenv.config();
 
 const app = express();
