@@ -19,7 +19,7 @@ app.get("/", (req, res) => {
 app.use("/api/auth", authRoutes);
 app.use("/api/categories", categoryRoutes);
 app.use("/api/transactions", transactionRoutes);
-
+app.use("/api/dashboard", dashboardRoutes);
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
 });
